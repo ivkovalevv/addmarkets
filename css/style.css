@@ -1750,6 +1750,20 @@ p{
     background-image: url(../img/svg/Steps-lump.svg);
 }
 
+.section-steps__block::before{
+    content: '';
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/svg/step\ snake.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
 .section-steps__block::after{
     content: '';
     position: absolute;
