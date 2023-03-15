@@ -240,6 +240,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* ------------------------------------------------------------------------------------------------------------------------- */
 
+
+
+
     /* FUNCFION CHECK CHECKBOX */
 
     function checkCheckbox(name, id){
